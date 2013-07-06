@@ -1,0 +1,67 @@
+body {
+	background:#ffffff
+}
+#titulo{font:14px "Comic Sans MS";
+color:#663366;
+}
+#resumo{
+	font:20px "Calisto MT";
+	color:red;
+}
+#conteudo .formato h1 {
+	font: 10px; "Blackadder ITC"
+	color:#663366
+}
+#titulo {
+	font: 140px; "Comic Sans MS"
+	color:#663366
+}
+
+#conteudo{
+	background:#339999;
+	border:5px solid #000;
+	width:650px;
+	padding:10px;
+}
+a{text-decoration:none;}
+a:link{color:#900}
+a:visited{color:#F00}
+a:hover{color:#339999}
+a:active{color:#FF0000}
+
+#caixa{
+	background: #069;
+	padding: 10px;
+	width: 600px;
+	margin: 10px;
+	}
+#caixa .conteudo{
+	background: #ffffff;
+	padding: 5px;
+	border: 5px solid #000000;
+	border-top-width: 20px;
+	border-right-width: 30px;
+	border-left-width: 40px:
+	border-bottom-width: 50px;
+	border-top-color: #00CC00;
+	border-bottom-style: dotted;
+}
+#um{
+	width: 640px;
+	padding: 10px;
+	border: 5px solid #000000;
+}
+#um .elemento{
+	width: 30%;
+	height: 140px;
+	margin: 10px;
+}
+#dois{
+	background: #00CC00; float: left;
+}
+#tres{
+	background: #FF0000; float: left;
+}
+#quatro{
+	background: #339999; float: right;
+}

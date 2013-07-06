@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+		<title>Formularios</title>
+
+	</head>
+
+	<body>
+		<form name="formContato" action="" method="post" enctype="multipart/form-data"> </form>
+			<fieldset>
+			<legend> Dados </legend>
+				<label>
+					<span> Nome </span>
+					<input type="text" name="Nome" size="50" />
+				</label>
+				<label>
+					<span> Senha </span>
+					<input type="password" name="Senha" size="50" />
+				</label>
+				<label>
+				<br />
+					<input type="checkbox" name="news" value="1" /> Marque aqui
+				</label>
+				<label>
+					<input type="radio" name="m" value="1" /> Masculino
+				</label>
+				<label>
+					<input type="radio" name="m" value="2" /> Feminino
+				</label>
+			</fieldset>
+			<fieldset>
+				<legend> Dados secundários </legend>
+				<span>
+					<select name="Função">
+						<option value="-1">Selecione uma opção &nbsp;</option>
+						<option value="-1">Comercial &nbsp;</option>
+						<option value="-1">Suporte &nbsp;</option>
+					</select>
+				</span>
+				<br />
+				<label>
+					<span> Envie sua mensagem</span>
+					<br />
+					<textarea name="msg" cols="20" rows="10"></textarea>
+				</label>
+			</fieldset>
+			<fieldset>
+				<legend>Enviar formulário</legend>
+				<input type="reset" value="Limpar formulário" name="limpar" />
+				<input type="submit" value="Enviar" name="Enviar"/>
+			</fieldset>
+	</body>
+</html>
